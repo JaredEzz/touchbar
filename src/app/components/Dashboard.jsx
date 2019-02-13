@@ -17,4 +17,6 @@ function mapStateToProps(state) {
     }
 }
 
+//Next: Routing and Navigation
+
 export const ConnectedDashboard = connect(mapStateToProps)(Dashboard);
