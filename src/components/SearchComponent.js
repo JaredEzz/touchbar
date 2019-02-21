@@ -1,8 +1,6 @@
 import React from "react";
 import Suggestion from "./SuggestionComponent";
 
-import '../styles/search.css';
-
 class Search extends React.Component {
     constructor(props) {
         super(props);
@@ -40,7 +38,8 @@ class Search extends React.Component {
         this.setState({
             selectedApp: item.name
         });
-        this.props.handleAppSelect(item.name);
+        let itemPath = `/app/${item.name}`;
+        this.props.history.push(itemPath.toLowerCase());
     };
 
     turnOnSuggestion() {
