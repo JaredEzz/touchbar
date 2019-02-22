@@ -4,6 +4,7 @@ import {
     Route, Link, Switch, Redirect
 } from 'react-router-dom';
 import Search from "./SearchComponent";
+import * as M from "materialize-css";
 
 class Suggestion extends React.Component {
     constructor(props) {
@@ -21,6 +22,14 @@ class Suggestion extends React.Component {
             suggestionString: this.refs.suggest.value,
             suggestionMade: true
         });
+        let toastHTML = '<span>Suggestion Submitted, Thanks!</span>';
+        M.toast({html: toastHTML});
+    }
+    handleAnother() {
+        this.setState({
+            suggestionMade: false
+        });
+        M.Toast.dismissAll();
     }
 
     render() {
@@ -44,10 +53,12 @@ class Suggestion extends React.Component {
                     placeholder="Type your application's name and submit when ready"/>
                 <div class="row">
                     <button class="left waves-effect waves-light btn" onClick={() => this.handleSuggestion()} disabled={_suggestionMade}>Submit Suggestion</button>
+
+                    {_suggestionMade?<button class="left spaced waves-effect waves-light btn" onClick={() => this.handleAnother()}>Make Another</button>:null}
                 </div>
                 <div className="row">
-                    <h5>{_suggestionMade? "Suggestion Submitted - Thank You!" : ""}</h5>
-                    <h5>{_suggestionMade?  <Link to="/search">Go Back</Link> : ""}</h5>
+                    {/*<h5>{_suggestionMade? "Suggestion Submitted - Thank You!" : ""}</h5>*/}
+                    {/*<h5>{_suggestionMade?  <Link to="/search">Go Back</Link> : ""}</h5>*/}
                 </div>
 
 

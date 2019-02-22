@@ -145,6 +145,13 @@ ul.search li[datatype="Fantastical 2"] {
   box-sizing: border-box;
 }
 
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 63%;
+  left: 32%;
+}
+
 @font-face {
   font-family: "Product Sans";
   font-style: normal;
@@ -232,6 +239,10 @@ ul.search li a {
   position: absolute;
   left: 200px;
   color: #777;
+}
+
+button.spaced {
+  margin-left: 5px !important;
 }
 
 /*# sourceMappingURL=index.css.map */

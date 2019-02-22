@@ -8,6 +8,13 @@ $list-bgcolor: #181818;
   box-sizing: border-box;
 }
 
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 63%;
+  left: 32%;
+}
+
 @font-face {
   font-family: 'Product Sans';
   font-style: normal;
@@ -101,4 +108,8 @@ ul.search{
         color: $text-color;
     }
   }
+}
+
+button.spaced{
+  margin-left: 5px !important;
 }

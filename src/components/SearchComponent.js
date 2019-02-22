@@ -1,5 +1,6 @@
 import React from "react";
 import Suggestion from "./SuggestionComponent";
+import * as M from "materialize-css";
 
 class Search extends React.Component {
     constructor(props) {
@@ -13,6 +14,7 @@ class Search extends React.Component {
         this.handleChange = this.handleChange.bind(this);
         // this.turnOnSuggestion = this.turnOnSuggestion.bind(this);
         //not needed because using arrow function below
+        M.Toast.dismissAll();
     }
 
     componentDidMount() {

@@ -1,10 +1,11 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import * as M from "materialize-css";
 
 class Comparison extends React.Component {
     constructor(props) {
         super(props);
-
+        M.Toast.dismissAll();
     }
 
     render() {
@@ -16,8 +17,6 @@ class Comparison extends React.Component {
                 }}
             >
                 <h3>Price Comparison State</h3>
-                <h5>{<Link to="/search">Go Back</Link>}</h5>
-                <button className="left btn" onClick={this.props.history.goBack}>Go Back</button>
             </div>
         );
     }
