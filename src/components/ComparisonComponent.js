@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 class Comparison extends React.Component {
     constructor(props) {
@@ -15,7 +16,8 @@ class Comparison extends React.Component {
                 }}
             >
                 <h3>Price Comparison State</h3>
-                <button onClick={() => this.props.handleTransition({type: 'BACK'})}>go back</button>
+                <h5>{<Link to="/search">Go Back</Link>}</h5>
+                <button className="left btn" onClick={this.props.history.goBack}>Go Back</button>
             </div>
         );
     }

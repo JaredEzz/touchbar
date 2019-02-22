@@ -43,9 +43,7 @@ class Search extends React.Component {
     };
 
     turnOnSuggestion() {
-        this.setState({
-            addSuggestion: true
-        });
+        this.props.history.push(`/suggestion`);
     }
 
     goToCompare(){
@@ -98,7 +96,6 @@ class Search extends React.Component {
                     <h5>{_addSuggestion ? "" : _selectedApp}</h5>
                     {/*TODO build functionality from selected app*/}
                     {_addSuggestion ? <Suggestion/> : null}
-                    <h4 onClick={() => this.goToCompare()}>{_showSuggestOption ? _addSuggestion ? "" : "Compare Macbook prices" : ""}</h4>
                 </div>
             </div>
         );

@@ -2,8 +2,12 @@ import React from 'react';
 
 const About = () => {
     return (
-      <div>
-          <h1 className="display-3">About Me</h1>
+      <div
+          style={{
+              position: 'absolute', left: '50%', top: '10%',
+              transform: 'translate(-50%, 0%)'
+          }}>
+          <h3 className="display-3">About Me</h3>
       </div>
     );
 }
