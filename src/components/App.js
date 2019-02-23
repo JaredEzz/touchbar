@@ -31,7 +31,7 @@ class App extends Component {
                                   {/*Test links for development go here*/}
                               </ul>
                               <ul className="right hide-on-med-only nav">
-                                  <li className="nav"><Link to="/compare">Compare MacBook Prices</Link></li>
+                                  <li className="nav"><Link to="/compare">Compare MacBook Models</Link></li>
                                   <li className="nav"><Link to="/about">About</Link></li>
                               </ul>
                           </div>
