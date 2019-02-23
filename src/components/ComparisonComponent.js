@@ -19,9 +19,10 @@ class Comparison extends React.Component {
                 <h3>Looking to buy a MacBook Pro?</h3>
                 <h5 className="center">Select a size for more details.</h5>
                 <div className="row">
-                    <button><img
-                        width="100" height="100" alt="13 Inch MacBook Pro"
-                        src={"./MacBookModels.png"} /></button>
+                    <img
+                        width="840" height="440" alt="13 Inch MacBook Pro"
+                        className="rounded"
+                        src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/MacBookModels.png"} />
                 </div>
             </div>
         );
