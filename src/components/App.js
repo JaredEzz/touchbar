@@ -12,6 +12,8 @@ import {
     BrowserRouter as Router,
     Route, Link, Switch, Redirect
 } from 'react-router-dom';
+import Thirteen from "./MacBookComponents/13InchComponent";
+import Fifteen from "./MacBookComponents/15InchComponent";
 
 class App extends Component {
   render() {
@@ -39,7 +41,9 @@ class App extends Component {
                       {/* Routes go here */}
                       <Redirect exact={true} from={"/"} to={"/search"}/>
                       <Route path={"/search"} component={Search}/>
-                      <Route path={"/compare"} component={Comparison}/>
+                      <Route exact={true} path={"/compare"} component={Comparison}/>
+                      <Route exact={true} path={"/compare/thirteen"} component={Thirteen}/>
+                      <Route exact={true} path={"/compare/fifteen"} component={Fifteen}/>
                       <Route path={"/app"} component={SelectedApp}/>
                       <Route path={"/suggestion"} component={Suggestion}/>
                       <Route path={"/about"} component={About}/>

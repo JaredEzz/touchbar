@@ -2,7 +2,7 @@
 
 $app-width: 600px;
 $text-color: #777;
-$list-bgcolor: #131217;
+$list-bgcolor: #181818;
 * {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
   box-sizing: border-box;
@@ -23,7 +23,7 @@ $list-bgcolor: #131217;
 }
 
 body{
-  background: #131217;
+  background: #181818;
 }
 
 h3 {
@@ -51,9 +51,6 @@ h5 {
 
 h6 {
   color: white;
-}
-
-.container {
 }
 
 input {
@@ -112,4 +109,41 @@ ul.search{
 
 button.spaced{
   margin-left: 5px !important;
+}
+
+img.link{
+  cursor: pointer;
+}
+
+.img-with-text13 {
+  text-align: justify;
+  width: 232px;
+  position: absolute;
+  left: 2%;
+  top: 115%;
+}
+
+.img-with-text13 img {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.img-with-text15 {
+  text-align: justify;
+  width: 271px;
+  position: absolute;
+  left: 51%;
+  top: 115%;
+
+}
+
+.img-with-text15 img {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+#macbooks {
+  margin: 0 auto;
 }
