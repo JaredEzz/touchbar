@@ -17,6 +17,7 @@ import Fifteen from "./MacBookComponents/15InchComponent";
 import Spotify from "./AppComponents/Spotify";
 import Firefox from "./AppComponents/Firefox";
 import IDEA from "./AppComponents/IDEA";
+import Excel from "./AppComponents/Excel";
 
 class App extends Component {
   render() {
@@ -54,6 +55,7 @@ class App extends Component {
                       <Route path={"/app/spotify"} component={Spotify}/>
                       <Route path={"/app/firefox"} component={Firefox}/>
                       <Route path={"/app/idea"} component={IDEA}/>
+                      <Route path={"/app/excel"} component={Excel}/>
 
                   </div>
               </div>

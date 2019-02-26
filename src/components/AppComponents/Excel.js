@@ -2,7 +2,7 @@ import React from 'react';
 import * as M from "materialize-css";
 import {Link} from "react-router-dom";
 
-const IDEA = () => {
+const Excel = () => {
     M.Toast.dismissAll();
     return (
         <div
@@ -10,13 +10,13 @@ const IDEA = () => {
                 position: 'absolute', left: '50%', top: '10%',
                 transform: 'translate(-50%, 0%)'
             }}>
-            <h3 className="display-3">IntelliJ IDEA</h3>
+            <h3 className="display-3">Microsoft Excel</h3>
             <a href="https://www.jetbrains.com/help/idea/touch-bar-support.html">
-                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/idea1.png"}
+                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/excelwithlabels.png"}
                      width="1245" height="130"
-                     alt={"IntelliJ Idea Touchbar"}/></a>
+                     alt={"Microsoft Excel Touchbar"}/></a>
         </div>
     );
 }
 
-export default IDEA;
+export default Excel;
