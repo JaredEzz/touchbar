@@ -17,14 +17,21 @@ class Suggestion extends React.Component {
         };
     }
 
-    handleSuggestion() {
+    handleChange(){
         this.setState({
             suggestionString: this.refs.suggest.value,
+            suggestionMade: true
+        });
+    }
+
+    handleSuggestion() {
+        this.setState({
             suggestionMade: true
         });
         let toastHTML = '<span>Suggestion Submitted, Thanks!</span>';
         M.toast({html: toastHTML});
     }
+
     handleAnother() {
         this.setState({
             suggestionMade: false
@@ -50,7 +57,8 @@ class Suggestion extends React.Component {
                     type="text"
                     value={this.state.suggestionString}
                     ref="suggest"
-                    placeholder="Type your application's name and submit when ready"/>
+                    placeholder="Type your application's name and submit when ready"
+                onChange={() => this.handleChange}/>
                 <div class="row">
                     <button class="left waves-effect waves-light btn" onClick={() => this.handleSuggestion()} disabled={_suggestionMade}>Submit Suggestion</button>
 
