@@ -194,6 +194,9 @@ let apps = [
     },
     {
         name: "Google Drive"
+    },
+    {
+        name: "IntelliJ IDEA"
     }
 ];
 
