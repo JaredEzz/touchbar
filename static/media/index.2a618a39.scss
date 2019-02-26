@@ -8,6 +8,13 @@ $list-bgcolor: #181818;
   box-sizing: border-box;
 }
 
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 63%;
+  left: 32%;
+}
+
 @font-face {
   font-family: 'Product Sans';
   font-style: normal;
@@ -36,6 +43,14 @@ h4 {
   color: white;
 }
 
+.header_link{
+  font-size: 1em;
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
+}
+
 h5 {
   text-align: left;
   font-size: .98em;
@@ -44,9 +59,6 @@ h5 {
 
 h6 {
   color: white;
-}
-
-.container {
 }
 
 input {
@@ -101,4 +113,45 @@ ul.search{
         color: $text-color;
     }
   }
+}
+
+button.spaced{
+  margin-left: 5px !important;
+}
+
+img.link{
+  cursor: pointer;
+}
+
+.img-with-text13 {
+  text-align: justify;
+  width: 232px;
+  position: absolute;
+  left: 2%;
+  top: 115%;
+}
+
+.img-with-text13 img {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.img-with-text15 {
+  text-align: justify;
+  width: 271px;
+  position: absolute;
+  left: 51%;
+  top: 115%;
+
+}
+
+.img-with-text15 img {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+#macbooks {
+  margin: 0 auto;
 }
