@@ -11,6 +11,7 @@ const IDEA = () => {
                 transform: 'translate(-50%, 0%)'
             }}>
             <h3 className="display-3">IntelliJ IDEA</h3>
+            <br/>
             <a href="https://www.jetbrains.com/help/idea/touch-bar-support.html">
                 <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/idea1.png"}
                      width="1245" height="130"

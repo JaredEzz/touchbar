@@ -11,10 +11,10 @@ const Excel = () => {
                 transform: 'translate(-50%, 0%)'
             }}>
             <h3 className="display-3">Microsoft Excel</h3>
-            <a href="https://www.jetbrains.com/help/idea/touch-bar-support.html">
+            <br/>
                 <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/excelwithlabels.png"}
-                     width="1245" height="130"
-                     alt={"Microsoft Excel Touchbar"}/></a>
+                     width="1245" height="124"
+                     alt={"Microsoft Excel Touchbar"}/>
         </div>
     );
 };

@@ -11,13 +11,16 @@ const Firefox = () => {
                 transform: 'translate(-50%, 0%)'
             }}>
             <h3 className="display-3">Mozilla Firefox</h3>
+            <br/>
             <div className="left blurb">
-                <h5>Currently, Mozilla Firefox does not support touch bar. When you use Firefox, your Touch Bar will resemble the default as show below.
-                However, certain extensions can be downloaded to Firefox to allow additional features, like switching tabs and selecting bookmarks. Visit this link for more updated information.</h5>
+                <h5>Currently, Mozilla Firefox does not support touch bar. </h5>
             </div>
             <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/default.png"}
-                 width="1245" height="130"
+                 width="1245" height="34"
                  alt={"Default Empty Touchbar"}/>
+             <h5>When you use Firefox, your Touch Bar will resemble the default as shown here.
+                 However, TouchBar support is planned for version 66 of Firefox. </h5>
+            <a href="https://www.mozilla.org/en-US/firefox/66.0beta/releasenotes/"><h4>Visit the release notes page here for more information</h4></a>
         </div>
     );
 };

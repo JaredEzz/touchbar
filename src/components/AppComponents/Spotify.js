@@ -11,6 +11,7 @@ const Spotify = () => {
                 transform: 'translate(-50%, 0%)'
             }}>
              <h3 className="display-3">Spotify</h3>
+            <br/>
             <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/spotify1.png"}
                  width="1160" height="32"
                  alt={"Spotify play options"}/>
