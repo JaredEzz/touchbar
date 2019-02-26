@@ -17,6 +17,6 @@ const IDEA = () => {
                      alt={"IntelliJ Idea Touchbar"}/></a>
         </div>
     );
-}
+};
 
 export default IDEA;

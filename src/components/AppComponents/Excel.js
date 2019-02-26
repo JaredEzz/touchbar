@@ -17,6 +17,6 @@ const Excel = () => {
                      alt={"Microsoft Excel Touchbar"}/></a>
         </div>
     );
-}
+};
 
 export default Excel;

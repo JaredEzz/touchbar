@@ -26,6 +26,6 @@ const Spotify = () => {
 
         </div>
     );
-}
+};
 
 export default Spotify;
