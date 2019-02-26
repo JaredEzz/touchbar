@@ -40,8 +40,18 @@ class Search extends React.Component {
         this.setState({
             selectedApp: item.name
         });
-        let itemPath = `/app/${item.name}`;
-        this.props.history.push(itemPath.toLowerCase());
+        let pathAddend;
+        if (item.name.toLowerCase().split(" ").length > 1){
+            if (item.name.toLowerCase().split(" ")[1] === "pro") {
+                pathAddend = item.name.toLowerCase().split(" ")[0];
+            } else {
+                pathAddend = item.name.toLowerCase().split(" ")[1];
+            }
+        } else {
+            pathAddend = item.name.toLowerCase();
+        }
+        let itemPath = `/app/${pathAddend}`;
+        this.props.history.push(itemPath);
     };
 
     turnOnSuggestion() {

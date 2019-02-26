@@ -15,7 +15,7 @@ const Fifteen = () => {
                 transform: 'translate(-50%, 0%)'
             }}>
             <h3 className="display-3">15-inch MacBook Pro Models</h3>
-            <a href="https://www.apple.com/hk/shop/buy-mac/macbook-pro/13-inch">
+            <a href="https://www.apple.com/hk/shop/buy-mac/macbook-pro/15-inch">
             <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/fifteendetails.png"}
                  width="900" height="649.6"
                  alt={"15 inch macbook options and prices"}/></a>

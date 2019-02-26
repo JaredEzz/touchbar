@@ -14,11 +14,13 @@ import {
 } from 'react-router-dom';
 import Thirteen from "./MacBookComponents/13InchComponent";
 import Fifteen from "./MacBookComponents/15InchComponent";
+import Spotify from "./AppComponents/Spotify";
+import Firefox from "./AppComponents/Firefox";
 
 class App extends Component {
   render() {
       return (
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
               <div className="App">
                   <div className="container">
                       {/*
@@ -39,14 +41,17 @@ class App extends Component {
                           </div>
                       </nav>
                       {/* Routes go here */}
-                      <Redirect exact={true} from={"/"} to={"/search"}/>
+                      {/*<Redirect exact={true} from={"/"} to={"/search"}/>*/}
+                      <Route exact={true} path={"/"} component={Search}/>
                       <Route path={"/search"} component={Search}/>
                       <Route exact={true} path={"/compare"} component={Comparison}/>
                       <Route exact={true} path={"/compare/thirteen"} component={Thirteen}/>
                       <Route exact={true} path={"/compare/fifteen"} component={Fifteen}/>
-                      <Route path={"/app"} component={SelectedApp}/>
                       <Route path={"/suggestion"} component={Suggestion}/>
                       <Route path={"/about"} component={About}/>
+                      <Route exact={true} path={"/app"} component={SelectedApp}/>
+                      <Route path={"/app/spotify"} component={Spotify}/>
+                      <Route path={"/app/firefox"} component={Firefox}/>
 
                   </div>
               </div>
