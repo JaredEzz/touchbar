@@ -12,9 +12,9 @@ const Messages = () => {
             }}>
             <h3 className="display-3">Messages</h3>
             <br/>
-                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/quicktimewithlabels.png"}
+                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/messageswithlabels.png"}
                      width="1245"
-                     alt={"Microsoft Excel Touchbar"}/>
+                     alt={"Messages Touchbar"}/>
         </div>
     );
 };

@@ -12,9 +12,9 @@ const Fantastical = () => {
             }}>
             <h3 className="display-3">Fantastical 2</h3>
             <br/>
-                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/quicktimewithlabels.png"}
+                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/fantasticalwithlabels.png"}
                      width="1245"
-                     alt={"Microsoft Excel Touchbar"}/>
+                     alt={"Fantastical 2 Touchbar"}/>
         </div>
     );
 };
