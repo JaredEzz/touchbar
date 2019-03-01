@@ -12,7 +12,7 @@ const Chrome = () => {
             }}>
             <h3 className="display-3">Google Chrome</h3>
             <br/>
-                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/quicktimewithlabels.png"}
+                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/chromewithlabels.png"}
                      width="1245"
                      alt={"Chrome Touchbar"}/>
         </div>
