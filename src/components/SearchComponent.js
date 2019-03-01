@@ -169,9 +169,6 @@ let apps = [
         name: "PDF Expert"
     },
     {
-        name: "Pixelmator"
-    },
-    {
         name: "Fantastical 2"
     },
     {

@@ -2,7 +2,7 @@ import React from 'react';
 import * as M from "materialize-css";
 import {Link} from "react-router-dom";
 
-const Illustrator = () => {
+const Itunes = () => {
     M.Toast.dismissAll();
     return (
         <div
@@ -19,4 +19,4 @@ const Illustrator = () => {
     );
 };
 
-export default Illustrator;
+export default Itunes;

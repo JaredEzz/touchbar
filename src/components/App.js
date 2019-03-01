@@ -33,12 +33,12 @@ import OnePassword from "./AppComponents/OnePassword";
 import Outlook from "./AppComponents/Outlook";
 import PDFExpert from "./AppComponents/PdfExpert";
 import Photoshop from "./AppComponents/Photoshop";
-import Pixelmator from "./AppComponents/Pixelmator";
 import Powerpoint from "./AppComponents/Powerpoint";
 import Sketch from "./AppComponents/Sketch";
 import Steam from "./AppComponents/Steam";
 import VLC from "./AppComponents/VLC";
 import Word from "./AppComponents/Word";
+import Itunes from "./AppComponents/ITunes";
 
 class App extends Component {
   render() {
@@ -85,12 +85,12 @@ class App extends Component {
                       <Route path={"/app/firefox"} component={Firefox}/>
                       <Route path={"/app/idea"} component={IDEA}/>
                       <Route path={"/app/illustrator"} component={Illustrator}/>
+                      <Route path={"/app/itunes"} component={Itunes}/>
                       <Route path={"/app/messages"} component={Messages}/>
                       <Route path={"/app/1password"} component={OnePassword}/>
                       <Route path={"/app/outlook"} component={Outlook}/>
                       <Route path={"/app/expert"} component={PDFExpert}/>
                       <Route path={"/app/photoshop"} component={Photoshop}/>
-                      <Route path={"/app/pixelmator"} component={Pixelmator}/>
                       <Route path={"/app/powerpoint"} component={Powerpoint}/>
                       <Route path={"/app/quicktime"} component={Quicktime}/>
                       <Route path={"/app/safari"} component={Safari}/>

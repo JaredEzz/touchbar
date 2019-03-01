@@ -10,11 +10,11 @@ const Illustrator = () => {
                 position: 'absolute', left: '50%', top: '10%',
                 transform: 'translate(-50%, 0%)'
             }}>
-            <h3 className="display-3">Adobe Photoshop</h3>
+            <h3 className="display-3">Adobe Illustrator</h3>
             <br/>
-                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/photoshop.png"}
+                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/illustrator.png"}
                      width="1245"
-                     alt={"Adobe Photoshop Touchbar"}/>
+                     alt={"Adobe Illustrator Touchbar"}/>
         </div>
     );
 };

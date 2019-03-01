@@ -12,9 +12,13 @@ const Steam = () => {
             }}>
             <h3 className="display-3">Steam</h3>
             <br/>
-                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/quicktimewithlabels.png"}
-                     width="1245"
-                     alt={"Microsoft Excel Touchbar"}/>
+            <div className="left blurb">
+                <h5>Currently, Steam does not support TouchBar. When you use Steam, your Touch Bar will resemble the default as shown here.</h5>
+            </div>
+            <br/>
+            <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/default.png"}
+                 width="1245" height="34"
+                 alt={"Default Empty Touchbar"}/>
         </div>
     );
 };
