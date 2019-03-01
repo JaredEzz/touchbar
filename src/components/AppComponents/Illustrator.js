@@ -12,7 +12,7 @@ const Illustrator = () => {
             }}>
             <h3 className="display-3">Illustrator</h3>
             <br/>
-                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/quicktimewithlabels.png"}
+                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/illustrator.png"}
                      width="1245"
                      alt={"Microsoft Excel Touchbar"}/>
         </div>
