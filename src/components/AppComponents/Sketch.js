@@ -12,9 +12,9 @@ const Sketch = () => {
             }}>
             <h3 className="display-3">Sketch</h3>
             <br/>
-                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/quicktimewithlabels.png"}
+                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/sketchwithlabels.png"}
                      width="1245"
-                     alt={"Microsoft Excel Touchbar"}/>
+                     alt={"Sketch Touchbar"}/>
         </div>
     );
 };

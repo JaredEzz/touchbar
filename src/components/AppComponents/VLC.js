@@ -12,9 +12,13 @@ const VLC = () => {
             }}>
             <h3 className="display-3">VLC</h3>
             <br/>
-                <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/quicktimewithlabels.png"}
-                     width="1245"
-                     alt={"VLC Touchbar"}/>
+            <div className="left blurb">
+                <h5>Currently, VLC Media Player does not support TouchBar. When you use VLC, your Touch Bar will resemble the default as shown here.</h5>
+            </div>
+            <br/>
+            <img src={"https://raw.githubusercontent.com/JaredEzz/touchbar/master/res/screenshots/default.png"}
+                 width="1245" height="34"
+                 alt={"Default Empty Touchbar"}/>
         </div>
     );
 };
