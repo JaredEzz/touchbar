@@ -42,7 +42,7 @@ class Search extends React.Component {
         });
         let pathAddend;
         if (item.name.toLowerCase().split(" ").length > 1){
-            if (item.name.toLowerCase().split(" ")[1] === "pro") {
+            if (item.name.toLowerCase().split(" ")[1] === "pro" || item.name.toLowerCase().split(" ")[1] === "2") {
                 pathAddend = item.name.toLowerCase().split(" ")[0];
             } else {
                 pathAddend = item.name.toLowerCase().split(" ")[1];
@@ -160,9 +160,6 @@ let apps = [
         name: "Sketch"
     },
     {
-        name: "PCalc"
-    },
-    {
         name: "Messages"
     },
     {
@@ -191,9 +188,6 @@ let apps = [
     },
     {
         name: "VLC"
-    },
-    {
-        name: "Google Drive"
     },
     {
         name: "IntelliJ IDEA"

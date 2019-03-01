@@ -18,6 +18,27 @@ import Spotify from "./AppComponents/Spotify";
 import Firefox from "./AppComponents/Firefox";
 import IDEA from "./AppComponents/IDEA";
 import Excel from "./AppComponents/Excel";
+import Quicktime from "./AppComponents/Quicktime";
+import Safari from "./AppComponents/Safari";
+import AppStore from "./AppComponents/Apple";
+import Chrome from "./AppComponents/Chrome";
+import djayPro from "./AppComponents/djayPro";
+import Evernote from "./AppComponents/Evernote";
+import Fantastical from "./AppComponents/Fantastical2";
+import FinalCutPro from "./AppComponents/FinalCutPro";
+import Finder from "./AppComponents/Finder";
+import Illustrator from "./AppComponents/Illustrator";
+import Messages from "./AppComponents/Messages";
+import OnePassword from "./AppComponents/OnePassword";
+import Outlook from "./AppComponents/Outlook";
+import PDFExpert from "./AppComponents/PdfExpert";
+import Photoshop from "./AppComponents/Photoshop";
+import Pixelmator from "./AppComponents/Pixelmator";
+import Powerpoint from "./AppComponents/Powerpoint";
+import Sketch from "./AppComponents/Sketch";
+import Steam from "./AppComponents/Steam";
+import VLC from "./AppComponents/VLC";
+import Word from "./AppComponents/Word";
 
 class App extends Component {
   render() {
@@ -51,12 +72,33 @@ class App extends Component {
                       <Route exact={true} path={"/compare/fifteen"} component={Fifteen}/>
                       <Route path={"/suggestion"} component={Suggestion}/>
                       <Route path={"/about"} component={About}/>
+                      {/*Singular App Paths*/}
                       <Route exact={true} path={"/app"} component={SelectedApp}/>
-                      <Route path={"/app/spotify"} component={Spotify}/>
+                      <Route path={"/app/store"} component={AppStore}/>
+                      <Route path={"/app/chrome"} component={Chrome}/>
+                      <Route path={"/app/djay"} component={djayPro}/>
+                      <Route path={"/app/evernote"} component={Evernote}/>
+                      <Route path={"/app/excel"} component={Excel}/>
+                      <Route path={"/app/fantastical"} component={Fantastical}/>
+                      <Route path={"/app/cut"} component={FinalCutPro}/>
+                      <Route path={"/app/finder"} component={Finder}/>
                       <Route path={"/app/firefox"} component={Firefox}/>
                       <Route path={"/app/idea"} component={IDEA}/>
-                      <Route path={"/app/excel"} component={Excel}/>
-
+                      <Route path={"/app/illustrator"} component={Illustrator}/>
+                      <Route path={"/app/messages"} component={Messages}/>
+                      <Route path={"/app/1password"} component={OnePassword}/>
+                      <Route path={"/app/outlook"} component={Outlook}/>
+                      <Route path={"/app/expert"} component={PDFExpert}/>
+                      <Route path={"/app/photoshop"} component={Photoshop}/>
+                      <Route path={"/app/pixelmator"} component={Pixelmator}/>
+                      <Route path={"/app/powerpoint"} component={Powerpoint}/>
+                      <Route path={"/app/quicktime"} component={Quicktime}/>
+                      <Route path={"/app/safari"} component={Safari}/>
+                      <Route path={"/app/sketch"} component={Sketch}/>
+                      <Route path={"/app/spotify"} component={Spotify}/>
+                      <Route path={"/app/steam"} component={Steam}/>
+                      <Route path={"/app/vlc"} component={VLC}/>
+                      <Route path={"/app/word"} component={Word}/>
                   </div>
               </div>
           </Router>
